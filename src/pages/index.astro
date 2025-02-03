@@ -1,0 +1,13 @@
+---
+import OllamaPrompt from "~/components/OllamaPromptForm";
+import Layout from "~/layouts/PromptLayout.astro";
+
+const metadata = {
+  title: "Jinx",
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+  <OllamaPrompt client:load />
+</Layout>
