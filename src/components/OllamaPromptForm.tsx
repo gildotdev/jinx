@@ -31,7 +31,7 @@ return (
         <button className="bg-emerald-800 hover:bg-emerald-900 text-white font-bold py-2 px-4 rounded-full">Query</button>
       </form>
       {responseMessage && 
-      <div id="response" className="bg-gradient-to-r from-emerald-900 to-emerald-500 rounded-xl p-5 mt-5">{responseMessage}</div>}
+      <div id="response" className="bg-emerald-900 rounded-xl p-5 mt-5">{responseMessage}</div>}
     </section>
   </main>
 </div>
